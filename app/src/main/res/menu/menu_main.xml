@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.usman.qrcodereader.MainActivity">
+    <item
+        android:id="@+id/more_apps"
+        android:title="@string/more_apps"
+        app:showAsAction="always" ></item>
+    <item
+        android:id="@+id/about_us"
+        android:title="@string/about_us"
+        app:showAsAction="always" ></item>
+    <item
+        android:id="@+id/delete_all"
+        android:title="@string/delete_all"
+        app:showAsAction="always" ></item>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        app:showAsAction="always" ></item>
+</menu>
